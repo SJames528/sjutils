@@ -1,9 +1,12 @@
 from setuptools import setup
+import os
+
+dir = os.path.dirname(os.path.realpath(__file__))
 
 setup(
     name='sjutils',
     version='1.0',
-    package = ['sjutils'],
+    package_dir = {"sjutils":dir+"/sjutils"},
     install_requires=[
         'numpy',
     ],
