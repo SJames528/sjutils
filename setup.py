@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='sjutils',
     version='1.0',
-    package_dir = {"sjutils":"/home/sjames528/Projects/sjutils/sjutils"},
+    package = ['sjutils'],
     install_requires=[
         'numpy',
     ],
